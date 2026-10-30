@@ -1,3 +1,5 @@
+![Banner](banner.png)
+
 # dm-data-homoglyph-replacer
 Replaces characters in sensitive data (like usernames or URLs) with visually similar homoglyphs to obscure the original value while maintaining readability. This is useful for masking data in logs or for demonstration purposes where complete obfuscation isn't needed but direct values shouldn't be shown. - Focused on Tools designed to generate or mask sensitive data with realistic-looking but meaningless values
 
