@@ -1,1 +1,1 @@
-faker>=1.0.0
+# No third-party dependencies: standard library only.

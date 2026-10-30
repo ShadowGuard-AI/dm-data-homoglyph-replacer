@@ -18,7 +18,7 @@ HOMOGLYPHS = {
     'h': ['հ', 'ɦ'],  # Armenian 'ho', Latin h with hook
     'i': ['і', 'ı'],  # Cyrillic 'i', dotless i
     'j': ['ϳ'],      # Greek capital letter jota
-    'k': ['κ', 'κ'],  # Greek kappa, same as original
+    'k': ['κ'],  # Greek kappa (listed twice in an earlier version of this table)
     'l': ['Ɩ', 'ӏ'],  # Latin letter l with hook, Cyrillic palochka
     'm': ['м'],      # Cyrillic 'em'
     'n': ['ո', 'п'],  # Armenian 'vo', Cyrillic 'pe' (visually similar in some fonts)
@@ -33,7 +33,7 @@ HOMOGLYPHS = {
     'w': ['ѡ'],      # Cyrillic omega
     'x': ['х'],      # Cyrillic 'ha'
     'y': ['у', 'γ'],  # Cyrillic 'u', Greek gamma
-    'z': ['z', 'з'],  # original z, Cyrillic 'ze'
+    'z': ['з'],  # Cyrillic 'ze' only: including the original 'z' made some replacements no-ops
     '0': ['O'],
     '1': ['l', 'I'],
     '2': ['Ƨ'],
