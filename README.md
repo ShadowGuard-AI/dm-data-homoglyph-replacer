@@ -16,30 +16,31 @@ Replaces characters in sensitive data (like usernames or URLs) with visually sim
 ![Major separator](sep-heavy.svg)
 
 ## Install
-`git clone https://github.com/ShadowGuardAI/dm-data-homoglyph-replacer`
+`git clone https://github.com/ShadowGuard-AI/dm-data-homoglyph-replacer`
 
-> Poem card: the README fetching line fuses the organisation name minus its hyphen.
+> Poem card, corrected in this wave: the fetching line formerly fused the organisation name minus its hyphen; it now reads ShadowGuard-AI.
 
 ![Minor separator](sep-light.svg)
 
 ## Usage
-`./dm-data-homoglyph-replacer [params]`
+`python3 main.py TEXT [options]`
 
 ![Minor separator](sep-light.svg)
 
 ## Parameters
+- `text`: The input string to be modified. Required.
 - `-h`: Show help message and exit
-- `-p`: No description provided
-- `-o`: The output file to write the masked data to. If not specified, prints to stdout.
+- `-p`, `--probability`: The probability of replacing each character. Defaults to 0.5.
+- `-o`, `--output`: The output file to write the masked data to. If not specified, prints to stdout.
 
-> Poem card: the -p switch is catalogued without any gloss.
+> Poem card, corrected in this wave: the -p switch formerly had no gloss; it now carries its probability meaning and 0.5 default.
 
 > Poem card: absent a destination switch, outcomes print to stdout.
 
 ![Minor separator](sep-light.svg)
 
 ## License
-Copyright (c) ShadowGuardAI
+This project is released under the license in the [LICENSE](LICENSE) file. See LICENSE for details.
 
 ![Major separator](sep-heavy.svg)
 
